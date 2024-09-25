@@ -1,11 +1,6 @@
 
 # LLM-3D-Generation 
 
-<div align="center">
-    <img src="assets/Figure1_v5.png" width="100%">
-</div>
-
-
 
 ## 🏠 About
 Here is a curated list of papers about LLM-3D-Generation. 
@@ -14,8 +9,8 @@ The repository is forked from [Awesome-LLM-3D](https://yashbhalgat.github.io/).
 
 ## Table of Content
 
-- [Awesome-LLM-3D](#awesome-llm-3D)
-  - [3D Understanding (LLM)](#3d-understanding-via-llm)
+- [Awesome-LLM-3D](#awesome-llm-3d)
+  - [3D Scene Generation](#3d-scene-generation)
   - [3D Understanding (other Foundation Models)](#3d-understanding-via-other-foundation-models)
   - [3D Reasoning](#3d-reasoning)
   - [3D Generation](#3d-generation)
@@ -25,34 +20,11 @@ The repository is forked from [Awesome-LLM-3D](https://yashbhalgat.github.io/).
 
 
 
-## 3D Understanding via LLM
+## 3D Scene Generation
 
-|  Date |       Keywords       |    Institute (first)   | Paper                                                                                                                                                                               | Publication | Others |
-| :-----: | :------------------: | :--------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------: | :---------:
-| 2024-09-08 | MSR3D | BIGAI | [Multi-modal Situated Reasoning in 3D Scenes](https://arxiv.org/abs/2409.02389) | Axiv| [project](https://msr3d.github.io/) |
-| 2024-08-28 | GreenPLM | HUST | [ More Text, Less Point: Towards 3D Data-Efficient Point-Language Understanding]( https://arxiv.org/pdf/2408.15966) | Arxiv| [github](https://github.com/TangYuan96/GreenPLM) |
-| 2024-06-07  | SpatialPIN           | Oxford                 | [SpatialPIN: Enhancing Spatial Reasoning Capabilities of Vision-Language Models through Prompting and Interacting 3D Priors](https://arxiv.org/abs/2403.13438)                         | Arxiv       | [project](https://dannymcy.github.io/zeroshot_task_hallucination/) |
-| 2024-05-02 | MiniGPT-3D | HUST| [MiniGPT-3D: Efficiently Aligning 3D Point Clouds with Large Language Models using 2D Priors](https://arxiv.org/pdf/2405.01413)| ACM MM '24 | [project](https://tangyuan96.github.io/minigpt_3d_project_page/) |
-| 2024-02-27 |  ShapeLLM |    XJTU  | [ShapeLLM: Universal 3D Object Understanding for Embodied Interaction](https://arxiv.org/pdf/2402.17766)                                                                                | Arxiv | [project](https://qizekun.github.io/shapellm/) |
-| 2024-01-22  | SpatialVLM           | Google DeepMind        | [SpatialVLM: Endowing Vision-Language Models with Spatial Reasoning Capabilities](https://arxiv.org/abs/2401.12168)                                                                  | CVPR '24    | [project](https://spatial-vlm.github.io/) |
-| 2023-12-21 |  LiDAR-LLM |    PKU  | [LiDAR-LLM: Exploring the Potential of Large Language Models for 3D LiDAR Understanding](https://arxiv.org/pdf/2312.14074.pdf)                                                                                | Arxiv | [project](https://sites.google.com/view/lidar-llm) |
-| 2023-12-15 |  3DAP |    Shanghai AI Lab  | [3DAxiesPrompts: Unleashing the 3D Spatial Task Capabilities of GPT-4V](https://arxiv.org/pdf/2312.09738.pdf)                                                                                | Arxiv | [project]() |
-| 2023-12-13 |  Chat-3D v2 |    ZJU | [Chat-3D v2: Bridging 3D Scene and Large Language Models with Object Identifiers](https://arxiv.org/pdf/2312.08168.pdf)                                                                                | Arxiv | [github](https://github.com/Chat-3D/Chat-3D-v2) |
-| 2023-12-5 | GPT4Point | HKU | [GPT4Point: A Unified Framework for Point-Language Understanding and Generation](https://arxiv.org/pdf/2312.02980.pdf) |Arxiv |  [github](https://github.com/Pointcept/GPT4Point) |
-| 2023-11-30 |         LL3DA        |     Fudan University    | [LL3DA: Visual Interactive Instruction Tuning for Omni-3D Understanding, Reasoning, and Planning](https://arxiv.org/pdf/2311.18651.pdf)                                                                                                  |Arxiv|  [github](https://github.com/Open3DA/LL3DA) |
-| 2023-11-26 | ZSVG3D | CUHK(SZ) | [Visual Programming for Zero-shot Open-Vocabulary 3D Visual Grounding](https://arxiv.org/pdf/2311.15383.pdf) | Arxiv | [project](https://curryyuan.github.io/ZSVG3D/) | Arxiv | 
-| 2023-11-18 |          LEO          |      BIGAI      | [An Embodied Generalist Agent in 3D World](https://arxiv.org/pdf/2311.12871.pdf)                                                           |    Arxiv  |  [github](https://github.com/embodied-generalist/embodied-generalist) |
-| 2023-10-14 | JM3D-LLM | Xiamen University | [JM3D & JM3D-LLM: Elevating 3D Representation with Joint Multi-modal Cues](https://arxiv.org/pdf/2310.09503v2.pdf)                                        | ACM MM '23 |  [github](https://github.com/mr-neko/jm3d) |
-| 2023-10-10 |  Uni3D |    BAAI  | [Uni3D: Exploring Unified 3D Representation at Scale](https://arxiv.org/abs/2310.06773)                                                                                | ICLR '24 | [project](https://github.com/baaivision/Uni3D) |
-| 2023-9-27 |  - |    KAUST  | [Zero-Shot 3D Shape Correspondence](https://arxiv.org/abs/2306.03253)                                                                                | Siggraph Asia '23 | - |
-| 2023-9-21|       LLM-Grounder       |      U-Mich      | [LLM-Grounder: Open-Vocabulary 3D Visual Grounding with Large Language Model as an Agent](https://arxiv.org/pdf/2309.12311.pdf)              |     ICRA '24     |  [github](https://github.com/sled-group/chat-with-nerf) |
-| 2023-9-1 |        Point-Bind       |      CUHK     | [Point-Bind & Point-LLM: Aligning Point Cloud with Multi-modality for 3D Understanding, Generation, and Instruction Following](https://arxiv.org/pdf/2309.00615.pdf)             |  Arxiv   |  [github](https://github.com/ZiyuGuo99/Point-Bind_Point-LLM) |
-| 2023-8-31 |         PointLLM         |      CUHK      | [PointLLM: Empowering Large Language Models to UnderstandPoint Clouds](https://arxiv.org/pdf/2308.16911.pdf)                                                                             |   Arxiv |  [github](https://github.com/OpenRobotLab/PointLLM) |
-| 2023-8-17|     Chat-3D     |      ZJU     | [Chat-3D: Data-efficiently Tuning Large Language Model for Universal Dialogue of 3D Scenes](https://arxiv.org/pdf/2308.08769v1.pdf)                                                          |  Arxiv      |  [github](https://github.com/Chat-3D/Chat-3D)|
-| 2023-8-8 |         3D-VisTA          |      BIGAI      | [3D-VisTA: Pre-trained Transformer for 3D Vision and Text Alignment](https://Arxiv.org/abs/2308.04352)                                                           |    ICCV '23  | [github]() |
-| 2023-7-24 |     3D-LLM     |      UCLA    | [3D-LLM: Injecting the 3D World into Large Language Models](https://arxiv.org/pdf/2307.12981.pdf)                                                                                                                      |   NeurIPS '23|  [github](https://github.com/UMass-Foundation-Model/3D-LLM) |
-| 2023-3-29 |       ViewRefer       |      CUHK      | [ViewRefer: Grasp the Multi-view Knowledge for 3D Visual Grounding](https://arxiv.org/pdf/2303.16894.pdf)                                                                                               |ICCV '23 |[github](https://github.com/Ivan-Tang-3D/ViewRefer3D) |
-| 2022-9-12 |        -        |      MIT      | [Leveraging Large (Visual) Language Models for Robot 3D Scene Understanding](https://arxiv.org/pdf/2209.05629.pdf)                                                                      |Arxiv|  [github](https://github.com/MIT-SPARK/llm_scene_understanding) |
+|  Date |       Keywords       | Paper                                                                                                                                                                               | Publication | Project | Code |
+| :-----: | :------------------: | :--------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------: | :---------: |
+| 2023-05-30 | SceneScape | [SceneScape: Text-Driven Consistent Scene Generation](https://arxiv.org/abs/2302.01133) | NeurIPS 2023 | [project](https://scenescape.github.io/) | [code](https://github.com/RafailFridman/SceneScape) |
 
 
 ## 3D Understanding via other Foundation Models
