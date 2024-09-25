@@ -11,12 +11,7 @@ The repository is forked from [Awesome-LLM-3D](https://yashbhalgat.github.io/).
 
 - [Awesome-LLM-3D](#awesome-llm-3d)
   - [3D Scene Generation](#3d-scene-generation)
-  - [3D Understanding (other Foundation Models)](#3d-understanding-via-other-foundation-models)
-  - [3D Reasoning](#3d-reasoning)
-  - [3D Generation](#3d-generation)
-  - [3D Embodied Agent](#3d-embodied-agent)
-  - [3D Benchmarks](#3d-benchmarks)
-  - [Contributing](#contributing)
+  - [3D Generation with LLM](#3d-generation-with-llm)
 
 
 
@@ -37,7 +32,7 @@ The repository is forked from [Awesome-LLM-3D](https://yashbhalgat.github.io/).
 
 
 
-## 3D Understanding via other Foundation Models
+## 3D Generation with LLM
 |  Date |       Keywords       | Paper                                                                                                                                                                               | Publication | Project | Code |
 | :----------: | :------------------: | :--------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------: | :---------: |
 | 29 Nov 2023 | ShapeGPT | [ShapeGPT: 3D Shape Generation with A Unified Multi-modal Language Model](https://arxiv.org/abs/2311.17618) | Arxiv 2023 | [project](https://shapegpt.github.io/) |  |
@@ -55,79 +50,6 @@ The repository is forked from [Awesome-LLM-3D](https://yashbhalgat.github.io/).
 
 
 
-
-## 3D Reasoning
-|  Date |       keywords       |    Institute (first)    | Paper                                                                                                                                                                               | Publication | Others |
-| :-----: | :------------------: | :--------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------: | :---------: 
-| 2023-5-20|       3D-CLR      |      UCLA     | [3D Concept Learning and Reasoning from Multi-View Images](https://arxiv.org/pdf/2303.11327.pdf)                                                 |   CVPR '23  | [github](https://github.com/evelinehong/3D-CLR-Official) |
-| - |         Transcribe3D         |     TTI, Chicago     | [Transcribe3D: Grounding LLMs Using Transcribed Information for 3D Referential Reasoning with Self-Corrected Finetuning](https://openreview.net/pdf?id=7j3sdUZMTF)                                                                                                  |CoRL '23|  [github]() |
-
-
-## 3D Generation
-|  Date |       keywords       |    Institute    | Paper                                                                                                                                                                               | Publication | Others |
-| :-----: | :------------------: | :--------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------: | :---------: 
-| 2023-11-29 |         ShapeGPT         |     Fudan University     | [ShapeGPT: 3D Shape Generation with A Unified Multi-modal Language Model](https://arxiv.org/pdf/2311.17618.pdf)                                                                                                  |Arxiv|  [github](https://github.com/OpenShapeLab/ShapeGPT) |                                                                                              | Arxiv  |  [github]() |
-| 2023-11-27|         MeshGPT         |     TUM     | [MeshGPT: Generating Triangle Meshes with Decoder-Only Transformers](https://arxiv.org/pdf/2311.15475.pdf)                                                                                                  |Arxiv |  [project](https://nihalsid.github.io/mesh-gpt/) |
-| 2023-10-19 |         3D-GPT        |     ANU   | [3D-GPT: Procedural 3D Modeling with Large Language Models](https://arxiv.org/pdf/2310.12945.pdf)                                                                                                   |Arxiv|  [github](https://dreamllm.github.io/) |
-| 2023-9-21 |         LLMR         |     MIT     | [LLMR: Real-time Prompting of Interactive Worlds using Large Language Models](https://arxiv.org/pdf/2309.12276.pdf)                                                                                                  |Arxiv|  [github]() |
-| 2023-9-20 |         DreamLLM         |     MEGVII    | [DreamLLM: Synergistic Multimodal Comprehension and Creation](https://arxiv.org/pdf/2309.11499.pdf) | Arxiv | [github](https://github.com/RunpeiDong/DreamLLM)
-| 2023-4-1 |      ChatAvatar      |       Deemos Tech            | [DreamFace: Progressive Generation of Animatable 3D Faces under Text Guidance](https://dl.acm.org/doi/abs/10.1145/3592094)                                               |  ACM TOG    | [website](https://hyperhuman.deemos.com/) |
-
-## 3D Embodied Agent
-|  Date |       keywords       |    Institute   | Paper                                                                                                                                                                               | Publication | Others |
-| :-----: | :------------------: | :--------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------: | :---------: 
-| 2024-01-22 |  SpatialVLM |    Deepmind  | [SpatialVLM: Endowing Vision-Language Models with Spatial Reasoning Capabilities](https://arxiv.org/abs/2401.12168)                                                                                | CVPR '24 | [project](https://spatial-vlm.github.io/) |
-| 2023-11-27 | Dobb-E | NYU | [On Bringing Robots Home](https://arxiv.org/pdf/2311.16098.pdf)        |    Arxiv  |  [github](https://github.com/notmahi/dobb-e) |
-| 2023-11-26 | STEVE | ZJU | [See and Think: Embodied Agent in Virtual Environment](https://arxiv.org/abs/2311.15209) | Arxiv | [github](https://github.com/rese1f/STEVE) |
-| 2023-11-18 | LEO  |   BIGAI  | [An Embodied Generalist Agent in 3D World](https://arxiv.org/pdf/2311.12871.pdf)   |    Arxiv  |  [github](https://github.com/embodied-generalist/embodied-generalist) |
-| 2023-9-14 |        UniHSI      |      Shanghai AI Lab     | [Unified Human-Scene Interaction via Prompted Chain-of-Contacts](https://arxiv.org/pdf/2309.07918.pdf)                                                                                                 |   Arxiv |  [github](https://github.com/OpenRobotLab/UniHSI) |
-| 2023-7-28 |         RT-2         |     Google-DeepMind     | [RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control](https://arxiv.org/pdf/2307.15818.pdf)                                                                                                  |Arxiv|  [github](https://robotics-transformer2.github.io/) |
-| 2023-7-12 |         SayPlan        |     QUT Centre for Robotics    | [SayPlan: Grounding Large Language Models using 3D Scene Graphs for Scalable Robot Task Planning](https://arxiv.org/pdf/2307.06135.pdf)                                                                                                  |CoRL '23|  [github](https://sayplan.github.io/) |
-| 2023-7-12 |          VoxPoser          |      Stanford      | [VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models](https://voxposer.github.io/voxposer.pdf)                                                           |    Arxiv  |  [github](https://github.com/huangwl18/VoxPoser) |
-| 2022-12-13|         RT-1         |     Google     | [RT-1: Robotics Transformer for Real-World Control at Scale](https://robotics-transformer1.github.io/assets/rt1.pdf)                                                                                                  |Arxiv|  [github](https://robotics-transformer1.github.io/) |
-| 2022-12-8 |         LLM-Planner         |     The Ohio State University    | [LLM-Planner: Few-Shot Grounded Planning for Embodied Agents with Large Language Models](https://arxiv.org/pdf/2212.04088.pdf)                                                                                                  |ICCV '23|  [github](https://github.com/OSU-NLP-Group/LLM-Planner/) |
-| 2022-10-11 |          CLIP-Fields          |      NYU, Meta      | [CLIP-Fields: Weakly Supervised Semantic Fields for Robotic Memory](https://arxiv.org/pdf/2210.05663.pdf)                                                           |    RSS '23  |  [github](https://github.com/notmahi/clip-fields) |
-| 2022-09-20|       NLMap-SayCan       |     Google     | [Open-vocabulary Queryable Scene Representations for Real World Planning](https://arxiv.org/abs/2209.09874)                                                                    | ICRA '23|  [github](https://nlmap-saycan.github.io/) |
-
-## 3D Benchmarks
-|  Date |       keywords       |    Institute    | Paper                                                                                                                                                                               | Publication | Others |
-| :-----: | :------------------: | :--------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------: | :---------: 
-| 2024-09-08 | MSQA / MSNN | BIGAI | [Multi-modal Situated Reasoning in 3D Scenes](https://arxiv.org/abs/2409.02389) | Axiv| [project](https://msr3d.github.io/) |
-| 2024-06-10 | 3D-GRAND / 3D-POPE | UMich | [3D-GRAND: A Million-Scale Dataset for 3D-LLMs with Better Grounding and Less Hallucination](https://arxiv.org/pdf/2406.05132.pdf) | Arxiv | [project](https://3d-grand.github.io) |
-| 2024-1-18 | SceneVerse | BIGAI | [SceneVerse: Scaling 3D Vision-Language Learning for Grounded Scene Understanding](https://arxiv.org/pdf/2401.09340.pdf) | Arxiv | [github](https://github.com/scene-verse/sceneverse) |
-| 2023-12-26 | EmbodiedScan | Shanghai AI Lab | [EmbodiedScan: A Holistic Multi-Modal 3D Perception Suite Towards Embodied AI](https://arxiv.org/pdf/2312.16170.pdf) | Arxiv | [github](https://github.com/OpenRobotLab/EmbodiedScan) |
-| 2023-12-17 |         M3DBench        |     Fudan University     | [M3DBench: Let's Instruct Large Models with Multi-modal 3D Prompts](https://arxiv.org/abs/2312.10763)                                                                                                  |Arxiv|  [github](https://github.com/OpenM3D/M3DBench) |
-| 2023-11-29 |         -         |     DeepMind  | [Evaluating VLMs for Score-Based, Multi-Probe Annotation of 3D Objects](https://arxiv.org/pdf/2311.17851.pdf)                                                                                                  |Arxiv|  [github]() |
-| 2022-10-14 |     SQA3D     |      BIGAI    | [SQA3D: Situated Question Answering in 3D Scenes](https://arxiv.org/pdf/2210.07474.pdf)                                                                                                        | ICLR '23| [github](https://github.com/SilongYong/SQA3D) |
-| 2021-12-20|     ScanQA     |      RIKEN AIP    | [ScanQA: 3D Question Answering for Spatial Scene Understanding](https://arxiv.org/pdf/2112.10482.pdf)                                                                                                        | CVPR '23| [github](https://github.com/ATR-DBI/ScanQA) |
-| 2020-12-3 |     Scan2Cap     |      TUM    | [Scan2Cap: Context-aware Dense Captioning in RGB-D Scans](https://arxiv.org/pdf/2012.02206.pdf)                                                                                                        | CVPR '21| [github](https://github.com/daveredrum/Scan2Cap) |
-| 2020-8-23 | ReferIt3D | Stanford | [ReferIt3D: Neural Listeners for Fine-Grained 3D Object Identification in Real-World Scenes](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123460409.pdf) | ECCV '20 | [github](https://github.com/referit3d/referit3d) 
-| 2019-12-18 |     ScanRefer     |      TUM   | [ScanRefer: 3D Object Localization in RGB-D Scans using Natural Language](https://arxiv.org/pdf/2112.10482.pdf)                                                                                                        | ECCV '20 | [github](https://daveredrum.github.io/ScanRefer/) |
-
-## Contributing
-
-Your contributions are always welcome!
-
-I will keep some pull requests open if I'm not sure if they are awesome for 3D LLMs, you could vote for them by adding 👍 to them.
-
----
-
-If you have any questions about this opinionated list, please get in touch at xianzheng@robots.ox.ac.uk or Wechat ID: mxz1997112.
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=ActiveVisionLab/Awesome-LLM-3D&type=Date)](https://star-history.com/#ActiveVisionLab/Awesome-LLM-3D&Date)
-
-## Citation
-If you find this repository useful, please consider citing this paper:
-```
-@misc{ma2024llmsstep3dworld,
-      title={When LLMs step into the 3D World: A Survey and Meta-Analysis of 3D Tasks via Multi-modal Large Language Models}, 
-      author={Xianzheng Ma and Yash Bhalgat and Brandon Smart and Shuai Chen and Xinghui Li and Jian Ding and Jindong Gu and Dave Zhenyu Chen and Songyou Peng and Jia-Wang Bian and Philip H Torr and Marc Pollefeys and Matthias Nießner and Ian D Reid and Angel X. Chang and Iro Laina and Victor Adrian Prisacariu},
-      year={2024},
-      journal={arXiv preprint arXiv:2405.10255},
-}
-```
 
 ## Acknowledgement
 This repo is inspired by [Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM?tab=readme-ov-file#other-awesome-lists)
