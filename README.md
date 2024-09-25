@@ -23,12 +23,11 @@ The repository is forked from [Awesome-LLM-3D](https://yashbhalgat.github.io/).
 ## 3D Scene Generation
 
 |  Date |       Keywords       | Paper                                                                                                                                                                               | Publication | Project | Code |
-| :-----: | :------------------: | :--------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------: | :---------: |
+| :----------: | :------------------: | :--------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------: | :---------: |
 | 2 Feb 2023 | SceneScape | [SceneScape: Text-Driven Consistent Scene Generation](https://arxiv.org/abs/2302.01133) | NeurIPS 2023 | [project](https://scenescape.github.io/) | [code](https://github.com/RafailFridman/SceneScape) |
 | 21 Mar 2023 | Text2Room | [Text2Room: Extracting Textured 3D Meshes from 2D Text-to-Image Models](https://arxiv.org/abs/2303.11989) | ICCV 2023 | [project](https://lukashoel.github.io/text-to-room/) | [code](https://github.com/lukasHoel/text2room) |
 | 22 Nov 2023 | LucidDreamer | [LucidDreamer: Domain-free Generation of 3D Gaussian Splatting Scenes](https://arxiv.org/abs/2311.13384) | Arxiv 2023 | [project](https://luciddreamer-cvlab.github.io/) | [code](https://github.com/luciddreamer-cvlab/LucidDreamer) |
-| 19 May 2023 | Text2NeRF | [Text2NeRF: Text-Driven 3D Scene Generation with Neural Radiance Fields](https://arxiv.org/abs/2305.11588) | TVCG 2024
- | [project](https://eckertzhang.github.io/Text2NeRF.github.io/) | [code](https://github.com/eckertzhang/Text2NeRF) |
+| 19 May 2023 | Text2NeRF | [Text2NeRF: Text-Driven 3D Scene Generation with Neural Radiance Fields](https://arxiv.org/abs/2305.11588) | TVCG 2024 | [project](https://eckertzhang.github.io/Text2NeRF.github.io/) | [code](https://github.com/eckertzhang/Text2NeRF) |
 | 14 Dec 2023 | Text2Immersion | [Text2Immersion: Generative Immersive Scene with 3D Gaussians]([Text2Immersion: Generative Immersive Scene with 3D Gaussians)](https://arxiv.org/abs/2312.09242)) | Arxiv 2023 | [project](https://ken-ouyang.github.io/text2immersion/index.html) |  |
 | 10 Apr 2024 | DreamScene360 | [DreamScene360: Unconstrained Text-to-3D Scene Generation with Panoramic Gaussian Splatting](https://arxiv.org/abs/2404.06903) | ECCV 2024 | [project](https://dreamscene360.github.io/) |  |
 | 9 May 2024 | FastScene | [FastScene: Text-Driven Fast 3D Indoor Scene Generation via Panoramic Gaussian Splatting](https://arxiv.org/abs/2405.05768) | IJCAI 2024 |  | [code](https://github.com/Mr-Ma-yikun/FastScene) |
