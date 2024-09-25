@@ -1,5 +1,5 @@
 
-# Awesome-LLM-3D [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)  <a href="" target='_blank'><img src="https://visitor-badge.laobi.icu/badge?page_id=activevisionlab.llm3d&left_color=gray&right_color=blue"> </a> [![arXiv](https://img.shields.io/badge/arXiv-2405.10255-b31b1b.svg)](https://arxiv.org/abs/2405.10255)
+# LLM-3D-Generation 
 
 <div align="center">
     <img src="assets/Figure1_v5.png" width="100%">
@@ -8,15 +8,9 @@
 
 
 ## 🏠 About
-Here is a curated list of papers about 3D-Related Tasks empowered by Large Language Models (LLMs). 
-It contains various tasks including 3D understanding, reasoning, generation, and embodied agents. Also, we include other Foundation Models (CLIP, SAM) for the whole picture of this area.
+Here is a curated list of papers about LLM-3D-Generation. 
+The repository is forked from [Awesome-LLM-3D](https://yashbhalgat.github.io/).
 
-This is an active repository, you can watch for following the latest advances. If you find it useful, please kindly star ⭐ this repo and [cite](#citation) the paper.
-
-## 🔥 News
-- [2024-05-16] 📢 Check out the first survey paper in the 3D-LLM domain: [When LLMs step into the 3D World: A Survey and Meta-Analysis of 3D Tasks via Multi-modal Large Language Models](https://arxiv.org/pdf/2405.10255) 
-- [2024-01-06] [Runsen Xu](https://runsenxu.com/) added chronological information and [Xianzheng Ma](https://xianzhengma.github.io/) reorganized it in Z-A order for better following the latest advances.
-- [2023-12-16] [Xianzheng Ma](https://xianzhengma.github.io/) and [Yash Bhalgat](https://yashbhalgat.github.io/) curated this list and published the first version;
 
 ## Table of Content
 
